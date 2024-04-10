@@ -14,8 +14,16 @@
     padding: 0 256px;
   }
 
+  //Para botões dessa classe que não estão desabilitados, manter com a borda branca
   .mat-mdc-outlined-button:not(:disabled) {
     border-color: white;
-  }
+}
+
+
+//borda no ultimo botão
+.mdc-button:last-child {
+  border: 1px groove white;
+}
+
 }
 
