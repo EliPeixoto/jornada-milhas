@@ -28,6 +28,7 @@ export class DepoimentosComponent {
       A equipe é profissional e a viagem foi memorável.
       `,
       autoria: 'Ana Maria'
+      
     }
  ];
 }
