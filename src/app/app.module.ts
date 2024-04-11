@@ -10,6 +10,12 @@ import { CardComponent } from './shared/card/card.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
+import { ContainerComponent } from './shared/container/container.component';
+import { HomeComponent } from './pages/home/home.component';
+import { CardBuscaComponent } from './shared/card-busca/card-busca.component';
+import { MatCardModule } from '@angular/material/card';
+import { DepoimentosComponent } from './shared/depoimentos/depoimentos.component';
+
 
 
 @NgModule({
@@ -18,14 +24,20 @@ import { MatButtonModule } from '@angular/material/button';
     HeaderComponent,
     FooterComponent,
     BannerComponent,
-    CardComponent
+    CardComponent,
+    ContainerComponent,
+    HomeComponent,
+    CardBuscaComponent,
+    DepoimentosComponent,
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatToolbarModule,
-    MatButtonModule
+    MatButtonModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]

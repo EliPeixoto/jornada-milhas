@@ -1,8 +1,13 @@
-.banner {
-    margin: 0
-    img{
-        max-width: 100%;
-        width: auto;
-    }
-}
+
+/* banner.component.css */
+.banner-container {
+    width: 100%; /* Isso garante que o contêiner ocupe toda a largura disponível */
+    height: auto; /* Isso permite que o contêiner ajuste sua altura automaticamente */
+   }
+   
+   .banner-image {
+    width: 100%; /* Isso garante que a imagem ocupe toda a largura do contêiner */
+    height: auto; /* Isso mantém a proporção da imagem */
+   }
+   
 
