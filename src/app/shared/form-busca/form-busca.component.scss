@@ -19,5 +19,11 @@
    .mat-button-toggle-group{
     border: none;
    }
-  }
+
+   .mat-mdc-unelevated-button:not(:disabled) {
+    background-color: #673ab7;
+    color: white
+  };
+}
+  
   
